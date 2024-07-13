@@ -3,51 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <!--Main CSS File -->
-     <link href="style.css" rel="stylesheet" />
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body >
-        <div class="container">
-          <div class="header">
-            <button class="backbtn"> Back </button>
-          </div>
-          <div class="main">
-          <h1>Start from free</h1>
-          <h2>Create an account</h2>
-            
-              <button class="googlebtn">Sign up with Google</button>
-        
-              <button class="facebookbtn">Sign up with Facebook</button>
-        
-          <h3>Or use your email for registration</h3>
-          
-          <div>
-            <input type="Name" placeholder="First Name" name="first name" id="first name" required>
-            <input type="Name" placeholder="Last Name" name="last name" id="last name" required>
-          </div>
-          <div>
-            <input type="text" placeholder="Email" name="email" id="email" required>
-          </div>
-          <div>
-            <input type="password" placeholder="Password" name="psw" id="psw" required>
-          </div>
-          <div>
-            <label class="agreement">By creating account, you agree to accept our Privacy Policy,<br> Terms of Service and Notification settings.
-              <input type="checkbox" checked="checked">
-              <span class="checkmark"></span>
-            </label>
-        
-          </div> 
-
-        <button type="submit" class="registerbtn">Create an Free Account!</button>
-        
-        </div>
-    
-        <div class="footer">
-          <p>Already have an account? <a href="#">Log in</a></p>
-        </div> 
-      </div>
-    
+<body>
+    <div class="container">
+        <a href="#" class="back-link">← Back</a>
+        <form id="registerForm" class="form">
+            <h2>Start from free</h2>
+            <h1>Create an account</h1>
+            <div class="alert" id="formAlert">⚠️ Please complete all the required fields to proceed.</div>
+            <div class="social-login">
+                <button type="button" class="google-btn">Sign up with Google</button>
+                <button type="button" class="facebook-btn">Sign up with Facebook</button>
+            </div>
+            <p>Or use your email for registration</p>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                    
+                </div>
+                <div class="form-group">
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                    
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                
+            </div>
+            <div class="form-group">
+                <div class="password-container">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <span class="toggle-password" onclick="togglePassword()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zm-8 4a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                    </span>
+                </div>
+                <div class="password-hint">8 Characters min. One number</div>
+                
+            </div>
+            <div class="form-group">
+                <label class="agreement">
+                    <input type="checkbox" id="terms" required>
+                    By creating an account, you agree to accept our Privacy Policy,<br> Terms of Service and Notification settings.
+                </label>
+            </div>
+            <button type="submit">Create a Free Account!</button>
+            <h3 class="login-link">Already have an account? <a href="#">Log in</a></h3>
+        </form>
+    </div>
+    <script src="javascript.js"></script>
 </body>
 </html>
+
