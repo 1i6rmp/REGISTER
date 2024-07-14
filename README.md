@@ -1,1 +1,4 @@
 # REGISTER
+HTML用form寫出註冊網站架構，input寫入required當input未填寫或勾選時按下submit跳出error message
+CSS 做介面排版
+Javascript用於呼叫顯示隱藏密碼、設定密碼條件以及input未填寫的錯誤錯誤訊息
