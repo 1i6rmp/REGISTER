@@ -1,6 +1,8 @@
 ### README.md
 
-```markdown
+![img](https://github.com/1i6rmp/REGISTER/blob/main/register.png)
+
+
 # Register Page
 
 This project is a responsive registration page designed to showcase front-end development skills. The page includes form validation, social login buttons, and password visibility toggle with enhanced styling.
@@ -12,6 +14,10 @@ This project is a responsive registration page designed to showcase front-end de
 - Real-time form validation
 - Password visibility toggle with an icon
 - Enhanced password validation (minimum 8 characters and at least one number)
+## Preview
+
+![img](https://github.com/1i6rmp/REGISTER/blob/main/register.png)
+![img](https://github.com/1i6rmp/REGISTER/blob/main/register_phone.png)
 
 ## Technologies Used
 
@@ -20,7 +26,7 @@ This project is a responsive registration page designed to showcase front-end de
 - JavaScript
 
 ### Release Notes
-
+```markdown
 2024/7/10 
   1.HTML寫出主要註冊網站架構
   2.CSS 做介面排版
@@ -36,7 +42,7 @@ This project is a responsive registration page designed to showcase front-end de
 2024/7/14
   1.優化CSS(policy agreement checkbox的位置、比例)
   2.將Google&Facebook icon寫入social-login button
-
+```
 ### Usage
 
 To run the project, open the ` register.html ` file in a web browser 
@@ -45,6 +51,7 @@ Alternatively, you can open the project in Visual Studio Code and use the Live S
 
 ### Project Structure
 
+```markdown
 register-page/
 │
 ├── register.html          # The main HTML file
@@ -53,7 +60,7 @@ register-page/
 ├── register.png           # Screenshot of the webpage
 ├── register_phone.png     # Screenshot of the webpage on mobile
 └── README.md              # Project README file
-
+```
 
 ### Contact
 
@@ -61,7 +68,7 @@ Eddie Huang - eh099813l@gmail.com
 
 Project Link: [[https://github.com/your_username_/register-page](https://github.com/1i6rmp/REGISTER.git)]([https://github.com/your_username_/register-page](https://github.com/1i6rmp/REGISTER.git))
 
-![img](https://github.com/1i6rmp/REGISTER/blob/main/register.png)
-```
+
+
 
 
