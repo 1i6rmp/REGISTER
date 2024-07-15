@@ -1,8 +1,5 @@
 ### README.md
 
-![img](https://github.com/1i6rmp/REGISTER/blob/main/register.png)
-
-
 # Register Page
 
 This project is a responsive registration page designed to showcase front-end development skills. The page includes form validation, social login buttons, and password visibility toggle with enhanced styling.
