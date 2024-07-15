@@ -61,7 +61,7 @@ register-page/
 
 ### Contact
 
-Eddie Huang - eh099813l@gmail.com
+Eddie Huang - eh099813@gmail.com
 
 Project Link: [[https://github.com/your_username_/register-page](https://github.com/1i6rmp/REGISTER.git)]([https://github.com/your_username_/register-page](https://github.com/1i6rmp/REGISTER.git))
 
