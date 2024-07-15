@@ -15,7 +15,8 @@ This project is a responsive registration page designed to showcase front-end de
 
 ## Preview
 
-![register](register.png)
+![image](register.png)
+![image](register_phone.png)
 
 ## Technologies Used
 
