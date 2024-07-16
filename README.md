@@ -42,9 +42,9 @@ This project is a responsive registration page designed to showcase front-end de
 ```
 ### Usage
 
-To run the project, open the ` register.html ` file in a web browser 
+To run the project, open the (https://1i6rmp.github.io/REGISTER/register.html) file in a web browser 
 
-Alternatively, you can open the project in Visual Studio Code and use the Live Server extension to run the project.
+Alternatively, you can open the project in Visual Studio Code and use the Live Server extension to run the project  `register.html`.
 
 ### Project Structure
 
