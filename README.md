@@ -13,8 +13,8 @@ This project is a responsive registration page designed to showcase front-end de
 - Enhanced password validation (minimum 8 characters and at least one number)
 ## Preview
 
-![img](https://github.com/1i6rmp/REGISTER/blob/main/register.png)
-![img](https://github.com/1i6rmp/REGISTER/blob/main/register_phone.png)
+![img](https://1i6rmp.github.io/REGISTER/register.png)
+![img](https://1i6rmp.github.io/REGISTER/register_phone.png)
 
 ## Technologies Used
 
